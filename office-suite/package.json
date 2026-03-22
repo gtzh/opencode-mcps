@@ -1,0 +1,17 @@
+{
+  "name": "office-suite-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for reading and writing Office documents (Word, Excel, PowerPoint)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "xlsx": "^0.18.5",
+    "mammoth": "^1.6.0",
+    "docx": "^8.5.0",
+    "pptxgenjs": "^3.12.0"
+  }
+}

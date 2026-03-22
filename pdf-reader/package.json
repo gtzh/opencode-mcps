@@ -1,0 +1,19 @@
+{
+  "name": "pdf-reader-mcp",
+  "version": "1.1.0",
+  "description": "MCP server for parsing PDF files with OCR support for scanned PDFs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["mcp", "pdf", "ocr", "easyocr"],
+  "license": "MIT"
+}
